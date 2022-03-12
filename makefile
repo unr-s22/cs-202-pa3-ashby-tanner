@@ -7,7 +7,7 @@ BIN=bin
 OBJS=
 
 $(APP): $(OBJS) $(SRC)/main.cpp
-	$(CC) $(CXXFLAGS) -o $(BIN)/$@ $^
+	$(CC) $(CXXFLAGS) -o $(BIN)/$@ $^ 
 
 %.o: %.cpp
 	$(CC) $(CXXFLAGS) -c $^
