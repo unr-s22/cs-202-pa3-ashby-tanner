@@ -1,0 +1,12 @@
+= Design Document
+:icons: font
+:source-highlighter: highlight.js
+
+== Team
+* Tanner Ashby
+* Jeremy Mamaril
+
+== To Do
+* Money Class
+* Account Class
+* Main
